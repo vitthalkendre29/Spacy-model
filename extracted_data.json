@@ -1,16 +1,32 @@
 {
-    "title": "Xerox to Acquire Lexmark",
-    "date": "2024-12-23T13:26:49+00:00",
-    "funding_amount": "$1.5\u00a0billion",
+    "title": "Nordic Capital Closes Nordic Capital Evolution II At EUR 2 Billion",
+    "date": "2024-12-20T12:17:28+00:00",
+    "funding_amount": "EUR 26 Billion",
     "ceo_cto_cfo": [],
     "country_address": {
         "city": "",
         "state": "",
-        "country": "Lexington"
+        "country": "Sweden"
     },
-    "fund_name": null,
-    "fund_size": null,
-    "investor_composition": {},
-    "focus_sectors": [],
-    "focus_regions": []
+    "fund_name": "Raised within four months from launch",
+    "fund_size": "1.4 Billion.",
+    "investor_composition": {
+        "public and private pension funds": "c.41",
+        "asset managers and advisers": "c.26",
+        "sovereign wealth funds": "c.14",
+        "family offices and foundations": "c.13",
+        "and financial institutions": "c. 6%)."
+    },
+    "focus_sectors": [
+        "healthcare",
+        "technology and payments",
+        "financial services",
+        "and service and industrial tech. Key regions are\u00a0Europe\u00a0and globally for healthcare and technology and payments investments."
+    ],
+    "focus_regions": [
+        "Europe",
+        "globally for healthcare",
+        "technology",
+        "payments investments."
+    ]
 }
