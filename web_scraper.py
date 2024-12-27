@@ -35,7 +35,6 @@ def scrape_and_extract(website_url, country_address, roles):
             "focus_regions": [],
         }
 
-        # Extract relevant data
         for paragraph in paragraphs:
             paragraph_text = paragraph.get_text(strip=True)
             doc = nlp(paragraph_text)
@@ -105,7 +104,7 @@ def scrape_and_extract(website_url, country_address, roles):
                 except IndexError:
                     print("Error while extracting focus regions. Skipping this paragraph.")
 
-        with open("extracted_data.json", "w") as json_file:
+        with open("extracted_data.json", "a") as json_file:
             json.dump(data_entry, json_file, indent=4)
 
         print("Data successfully extracted and saved to 'extracted_data.json'.")
@@ -115,9 +114,8 @@ def scrape_and_extract(website_url, country_address, roles):
         print(f"An error occurred: {e}")
 
 
-website_url = "https://www.finsmes.com/2024/12/xerox-to-acquire-lexmark.html"
+website_url = "https://www.finsmes.com/2024/12/nordic-capital-closes-nordic-capital-evolution-ii-at-eur-2-billion.html"
 country_address = {"city": "", "state": "", "country": ""}
-
 roles = ["CEO", "CTO", "CFO"]
 
 scrape_and_extract(website_url, country_address, roles)
